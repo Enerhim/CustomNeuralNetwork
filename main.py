@@ -61,5 +61,3 @@ mega_train=train_X[0][0]
 for i in range(len(train_X[0])-1):
     
     mega_train = mega_train+train_X[0][i+1]
-
-print(neural_network.classify(mega_train))
